@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body{
+    
+    background-color:black;
+}
+
+nav{
+    margin: 20px 50px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 50%;
+    
+    
+}
+
+.logo img{
+    height: 50px;
+    background: rgba(125, 2, 150, 0.1);
+    filter: invert(16%) sepia(99%) saturate(7404%) hue-rotate(4deg) brightness(95%) contrast(118%);
+
+}
+
+
+.list{
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-item{
+    color: #FFFF;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.fa-sort-down{  
+    padding-left: 10px;
+    position: absolute;
+    top: -7px;
+    font-size: 20px;
+}
+
+
+.header-bottom{
+    
+    display: flex;
+    margin: 20px 50px;
+}
+
+.header-left{
+    width: 50%;
+}
+.header-left img{
+    height: 500px;
+    width: 500px;
+}
+
+.header-right{
+    width: 50%;
+    display: block;
+    margin: auto;
+    
+    padding-right: 150px;
+}
+
+.header-right h2{
+    font-size: 30px;
+    color: #e43535;
+}
+
+.header-right h1{
+    color: #ffff;
+    font-size: 60px;
+    font-weight: 800 ;
+}
+
+.header-right p{
+    color: #FFFF;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.btn{
+    
+    margin-top: 30px;
+    padding: 15px 35px;
+    background-color: #e43535;
+    color: #FFFF;
+    font-size: 18px;
+    font-weight: 600;
+    height: 50px;
+    border: none;
+}
+
+
+
+.about{
+    position:relative;
+    overflow:hidden;    
+    background-color: #000;
+    
+
+    }
+    
+
+
+    .about-bg::before{
+    background-color:#3c3c414d;
+    width:50%;
+    position:absolute;
+    right:50%;
+    top:0PX;
+    content:"";
+    height:100%;
+    /* z-index: 1; */
+    }
+
+
+
+.cards{    
+    margin: 70px 130px;
+    width: 100%;
+    display: flex;
+    overflow:visible;
+    
+}
+
+.card{
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    row-gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 2;
+}
+
+.card-1{
+    background-color:#1E1E1E;
+
+}
+.card-active{
+    background-color: #e43535;
+    color: #fff;
+}
+
+
+.card h2{
+    
+    color:#FFFF;
+    font-size: 30px;
+    font-weight: 600;    
+}
+
+.card p{    
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;    
+
+}
+
+
+
+
+.card-active h3{
+    color: #fff;
+
+}
+
+.know-more{
+    position: relative;
+    color:rgb(225, 4, 4, 1);
+    font-weight: 800;
+}   
+
+.fa-arrow-right{
+    position: absolute;
+    top: 4px;
+    left: 140px;
+    
+}
+
+.know-more-active{
+    position: relative;
+    color:#fff;
+    font-weight: 800;
+}
+
+.know-more-active>.fa-arrow-right {
+    position: absolute;
+    top: 4px;
+    left: 140px;   
+    
+}
+
+
+
+.about-achievement{
+    /* width: 90%; */
+    display: flex;
+    margin:50px 130px;
+    
+}
+
+.achievement-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    width: 50%;
+    
+}
+
+
+.achievement-left h1{
+    color:#e43535;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 120px;
+    font-weight:900;
+}
+
+.achievement-left h2{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 400;
+}
+
+
+
+.achievement-right{
+    display: flex;
+    
+    z-index: 1;
+    width: 50%;
+    margin-right: 180px;
+}
+
+
+.achievement-cards{
+    display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+
+.achievement-card{
+    width: 340px;
+    background:#1E1E1E;
+    margin: 10px;   
+    /* margin-right: 150px; */
+    height: 90px;
+    /* display: block; */
+    text-align: center;
+    padding: 20px 0;
+}
+
+.achievement-card h1{
+    color: #e43535;
+    font-size: 50px;
+}
+
+
+.achievement-card p{
+    color: #fff;
+    font-size: 10px;
+}
+
+
+.project-head{
+    display: flex;
+    margin: 20px 130px;
+}
+
+.head-left{
+    width: 50%;
+    color: #fff;
+    margin: 30px 0;
+    line-height: 40px;
+}
+
+.head-left h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.head-left p{
+    font-size: 14px;
+}
+
+
+.head-right{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.project-main{
+    margin: 0 130px;
+    
+}
+.project-cards{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 30px;
+    
+    
+    
+}
+
+
+
+.project-card img{
+    background: #1E1E1E;
+    padding: 80px 30px;
+    height: 250px; 
+    width:460px ;
+    /* width: 440px;  */
+    
+}
+
+.project-cards h1{
+    color: #fff;
+    font-weight: bolder;
+    margin: 20px 0;
+}
+
+
+.connect{
+    margin: 80px 130px;
+    background-color: #1E1E1E;
+    display: flex;
+}
+
+.connect-left{
+    padding: 80px 40px;
+    width: 60%;
+    color: #fff;
+    
+}
+
+.connect-left h1{
+    row-gap: 20px;
+    font-size: 50px;
+}
+
+.connect-left p{
+
+    font-size: 15px;
+    
+}
+
+
+.connect-right{
+    display: block;
+    margin: auto;
+}
+
+
+
+
+.bottom-nav-bar-list{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.bottom-nav-bar-list-item{
+    color:#fff;
+    margin: 30px 10px;
+    font-size: 12px;
+}
+
+footer{
+    height: 100px;
+    background: #1E1E1E;
+    display: flex;
+}
+
+.footer-logo{
+    width: 25%;
+    margin: 0 130px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.footer-logo img{
+    height: 40px;    
+    filter: invert(16%) sepia(99%) saturate(7404%) hue-rotate(4deg) brightness(95%) contrast(118%);
+
+}
+
+.social-media{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.social-media img{
+    padding: 0 20px;
+    
+}
+
+
+@media screen and (max-width:1240px) {  
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .achievement-cards{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .project-cards{
+        /* width: 80%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
